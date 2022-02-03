@@ -1,0 +1,19 @@
+[host_machine]
+system = 'android'
+cpu_family = 'aarch64'
+cpu = 'aarch64'
+endian = 'little'
+
+[constants]
+android_ndk = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle'
+toolchain = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9'
+
+[binaries]
+c = 'clang'
+cpp = 'clang++'
+objc = 'clang'
+objcpp = 'clang++'
+ar = 'ar'
+strip = 'strip'
+
+default_library = 'static'

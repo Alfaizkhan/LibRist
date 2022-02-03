@@ -1,7 +1,3 @@
-# This is a cross compilation file from OSX Yosemite to iPhone
-# Apple keeps changing the location and names of files so
-# these might not work for you. Use the googels and xcrun.
-
 [binaries]
 c = 'clang'
 cpp = 'clang++'
