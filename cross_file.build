@@ -18,10 +18,9 @@ objcpp_args = ['-arch', 'arm64', '-miphoneos-version-min=11.0', '-isysroot', '/A
 root = '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer'
 has_function_printf = true
 has_function_hfkerhisadf = false
-needs_exe_wrapper = true
 
 [host_machine]
 system = 'darwin'
-cpu_family = 'aach64'
-cpu = 'aach64'
+cpu_family = 'aarch64'
+cpu = 'aarch64'
 endian = 'little'
