@@ -54,3 +54,10 @@ None. This library has no external runtime dependencies on any OS other than nor
 5. Run the command "meson compile -C build"
 6. The compiled library and the tools will be in the build and build/tools folders respectively
 7. Alternatively, open librist.sln and build the applications manually if you prefer to use the VS IDE
+
+
+## License
+
+**librist** is released under a very liberal license, a contrario from the other VideoLAN projects, so that it can be embedded anywhere, including non-open-source software; or even drivers, to allow the creation of hybrid decoders.
+
+The reasoning behind this decision is the same as for libvorbis, see [RMS on vorbis](https://lwn.net/2001/0301/a/rms-ov-license.php3).
