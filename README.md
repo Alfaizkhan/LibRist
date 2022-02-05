@@ -55,6 +55,10 @@ None. This library has no external runtime dependencies on any OS other than nor
 6. The compiled library and the tools will be in the build and build/tools folders respectively
 7. Alternatively, open librist.sln and build the applications manually if you prefer to use the VS IDE
 
+# Build with Docker
+
+1. Simply do a `docker build` on the Dockerfile in the 'common' subdirectory
+
 
 ## License
 
