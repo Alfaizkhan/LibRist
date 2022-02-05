@@ -35,3 +35,11 @@ The reasoning behind this decision is the same as for libvorbis, see [RMS on vor
 - Bi-directional communication available (not one-way systems like satellite)
 
 If you have an application that needs to operate outside the sweet spot described above, you will need to modify some constants in the rist-private.h header and/or use some of the more obscure API calls to fine tune the library for your use case. The library can overcome all the limitations above by fine-tuning with the exception of packet fragmentation which will be addressed as a feature enhancement in the future.
+
+
+# Roadmap
+
+The plan is the following:
+
+### On-going
+1. Currently I am compiling the Library for Android and IOS platform.
