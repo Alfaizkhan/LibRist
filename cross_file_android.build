@@ -1,17 +1,18 @@
+[binaries]
+c       = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang'
+cpp     = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang++'
+ar      = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ar'
+as      = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-as'
+ranlib  = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ranlib'
+ld      = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ld'
+strip   = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-strip'
+pkgconfig = 'false'
+
+[properties]
+sys_root = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot'
+
 [host_machine]
 system = 'android'
-cpu_family = 'aarch64'
+cpu_family = 'arm'
 cpu = 'aarch64'
 endian = 'little'
-
-[constants]
-android_ndk = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle'
-toolchain = '/Users/alfaizkhanpathan/Library/Developer/Xamarin/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9'
-
-[binaries]
-c = 'clang'
-cpp = 'clang++'
-objc = 'clang'
-objcpp = 'clang++'
-ar = 'ar'
-strip = 'strip'
